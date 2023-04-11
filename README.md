@@ -52,9 +52,9 @@
   <h1>Numbered Buttons with Sounds</h1>
   <button id="button1" class="numbered-button" onclick="playSound('Metal Crash.mp3')">1</button>
   <button id="button2" class="numbered-button" onclick="playSound('Plastic Object Dropping.mp3')">2</button>
-  <button id="button3" class="numbered-button" onclick="playSound('sound3.mp3')">3</button>
-  <button id="button4" class="numbered-button" onclick="playSound('sound4.mp3')">4</button>
-  <button id="button5" class="numbered-button" onclick="playSound('sound5.mp3')">5</button>
-  <button id="button6" class="numbered-button" onclick="playSound('sound6.mp3')">6</button>
+  <button id="button3" class="numbered-button" onclick="playSound('Tearing Crunch.mp3')">3</button>
+  <button id="button4" class="numbered-button" onclick="playSound('Water Splash on Cement Series.mp3')">4</button>
+  <button id="button5" class="numbered-button" onclick="playSound('Wineglass On Wood Soft.mp3')">5</button>
+  <button id="button6" class="numbered-button" onclick="playSound('Woodpecker Pecking on Tree.mp3')">6</button>
 </body>
 </html>
