@@ -1,7 +1,6 @@
-<!DOCTYPE html>
 <html>
 <head>
-  <title>Numbered Buttons with Sounds</title>
+  <title>Botonera de sonidos</title>
   <style>
     /* CSS styles for buttons */
     .numbered-button {
@@ -48,7 +47,7 @@
   </script>
 </head>
 <body>
-  <h1>Numbered Buttons with Sounds</h1>
+  <h1>Botonera de sonidos</h1>
   <button id="button1" class="numbered-button" onclick="playSound('Metal Crash.mp3')">1</button>
   <button id="button2" class="numbered-button" onclick="playSound('Plastic Object Dropping.mp3')">2</button>
   <button id="button3" class="numbered-button" onclick="playSound('Tearing Crunch.mp3')">3</button>
