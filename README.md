@@ -1,5 +1,5 @@
 
-<html>
+
 
   <title>Botonera de sonidos</title>
   <style>
