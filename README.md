@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
   <title>Botonera de sonidos</title>
@@ -37,6 +38,31 @@
     #button6 {
       background-color: #1abc9c; /* set the background color */
     }
+
+    /* Custom background colors for the additional buttons */
+    #button7 {
+      background-color: #c0392b; /* set the background color */
+    }
+
+    #button8 {
+      background-color: #d35400; /* set the background color */
+    }
+
+    #button9 {
+      background-color: #27ae60; /* set the background color */
+    }
+
+    #button10 {
+      background-color: #8e44ad; /* set the background color */
+    }
+
+    #button11 {
+      background-color: #f1c40f; /* set the background color */
+    }
+
+    #button12 {
+      background-color: #2c3e50; /* set the background color */
+    }
   </style>
   <script>
     // JavaScript code to play sounds when buttons are clicked
@@ -54,5 +80,12 @@
   <button id="button4" class="numbered-button" onclick="playSound('Water Splash on Cement Series.mp3')">4</button>
   <button id="button5" class="numbered-button" onclick="playSound('Wineglass On Wood Soft.mp3')">5</button>
   <button id="button6" class="numbered-button" onclick="playSound('Woodpecker Pecking on Tree.mp3')">6</button>
+  <button id="button7" class="numbered-button" onclick="playSound('Sound7.mp3')">7</button>
+  <button id="button8" class="numbered-button" onclick="playSound('Sound8.mp3')">8</button>
+  <button id="button9" class="numbered-button" onclick="playSound('Sound8.mp3')">9</button>
+  <button id="button10" class="numbered-button" onclick="playSound('Sound8.mp3')">10</button>
+  <button id="button11" class="numbered-button" onclick="playSound('Sound8.mp3')">11</button>
+  <button id="button12" class="numbered-button" onclick="playSound('Sound8.mp3')">12</button>
+
 </body>
 </html>
