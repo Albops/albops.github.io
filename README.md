@@ -74,18 +74,18 @@
 </head>
 <body>
   <h1>Botonera de sonidos</h1>
-  <button id="button1" class="numbered-button" onclick="playSound('Metal Crash.mp3')">1</button>
-  <button id="button2" class="numbered-button" onclick="playSound('Plastic Object Dropping.mp3')">2</button>
-  <button id="button3" class="numbered-button" onclick="playSound('Tearing Crunch.mp3')">3</button>
-  <button id="button4" class="numbered-button" onclick="playSound('Water Splash on Cement Series.mp3')">4</button>
-  <button id="button5" class="numbered-button" onclick="playSound('Wineglass On Wood Soft.mp3')">5</button>
-  <button id="button6" class="numbered-button" onclick="playSound('Woodpecker Pecking on Tree.mp3')">6</button>
-  <button id="button7" class="numbered-button" onclick="playSound('Sound7.mp3')">7</button>
-  <button id="button8" class="numbered-button" onclick="playSound('Sound8.mp3')">8</button>
-  <button id="button9" class="numbered-button" onclick="playSound('Sound8.mp3')">9</button>
-  <button id="button10" class="numbered-button" onclick="playSound('Sound8.mp3')">10</button>
-  <button id="button11" class="numbered-button" onclick="playSound('Sound8.mp3')">11</button>
-  <button id="button12" class="numbered-button" onclick="playSound('Sound8.mp3')">12</button>
+  <button id="button1" class="numbered-button" onclick="playSound('Sharp Noise Sound Effect.mp3')">1</button>
+  <button id="button2" class="numbered-button" onclick="playSound('Sharp woosh sound effect.mp3')">2</button>
+  <button id="button3" class="numbered-button" onclick="playSound('Sweet Bird Sound Effect.mp3')">3</button>
+  <button id="button4" class="numbered-button" onclick="playSound('Tree Falling Sound Effect.mp3')">4</button>
+  <button id="button5" class="numbered-button" onclick="playSound('Apple crunch sound effect.mp3')">5</button>
+  <button id="button6" class="numbered-button" onclick="playSound('Acoustic Guitar A Minor Chord Sound Effect.mp3')">6</button>
+  <button id="button7" class="numbered-button" onclick="playSound('Acoustic Guitar G Major Chord Sound Effect.mp3')">7</button>
+  <button id="button8" class="numbered-button" onclick="playSound('Human EatingCrunch  Sound Effect HD.mp3')">8</button>
+  <button id="button9" class="numbered-button" onclick="playSound('Bubble Sound Effect.mp3')">9</button>
+  <button id="button10" class="numbered-button" onclick="playSound('GooeySlime  Sound Effect.mp3')">10</button>
+  <button id="button11" class="numbered-button" onclick="playSound('Woodpecker  Sound Effect.mp3')">11</button>
+  <button id="button12" class="numbered-button" onclick="playSound('Leaves  branches sound effect.mp3')">12</button>
 
 </body>
 </html>
