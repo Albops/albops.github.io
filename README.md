@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 <head>
   <title>Botonera de sonidos</title>
