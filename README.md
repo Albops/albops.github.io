@@ -1,6 +1,13 @@
 
 <html>
 <head>
+ 
+ @import "{{ site.theme }}";
+
+header {
+  display: none;
+} 
+ 
   <title>Botonera de sonidos</title>
   <style>
     /* CSS styles for buttons */
