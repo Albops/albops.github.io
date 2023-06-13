@@ -1,6 +1,6 @@
 
-
-
+<html>
+<head>
   <title>Botonera de sonidos</title>
   <style>
     /* CSS styles for buttons */
