@@ -16,37 +16,63 @@
 
     /* Custom background colors for each button */
     #button1 {
-      background-color: #3498db; /* set the background color */
+      background-color: #3498db; /* blue */
     }
 
     #button2 {
-      background-color: #2ecc71; /* set the background color */
+      background-color: #2ecc71; /* green */
     }
 
     #button3 {
-      background-color: #e74c3c; /* set the background color */
+      background-color: #e74c3c; /* red */
     }
 
     #button4 {
-      background-color: #9b59b6; /* set the background color */
+      background-color: #9b59b6; /* purple */
     }
 
     #button5 {
-      background-color: #f39c12; /* set the background color */
+      background-color: #f39c12; /* orange */
     }
 
     #button6 {
-      background-color: #1abc9c; /* set the background color */
+      background-color: #1abc9c; /* teal */
     }
 
-    /* Additional button styles */
-    .additional-buttons {
-      display: flex;
-      flex-wrap: wrap;
+    #button7 {
+      background-color: #d35400; /* dark orange */
     }
 
-    .additional-button {
-      width: calc(33.33% - 10px);
+    #button8 {
+      background-color: #27ae60; /* dark green */
+    }
+
+    #button9 {
+      background-color: #8e44ad; /* dark purple */
+    }
+
+    #button10 {
+      background-color: #f1c40f; /* yellow */
+    }
+
+    #button11 {
+      background-color: #2c3e50; /* dark blue */
+    }
+
+    #button12 {
+      background-color: #e67e22; /* bright orange */
+    }
+
+    #button13 {
+      background-color: #c0392b; /* dark red */
+    }
+
+    #button14 {
+      background-color: #8e44ad; /* dark purple */
+    }
+
+    #button15 {
+      background-color: #3498db; /* blue */
     }
   </style>
   <script>
@@ -98,6 +124,7 @@
   
 </body>
 </html>
+
 
 
 
