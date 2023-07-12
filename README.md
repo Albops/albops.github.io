@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Botonera de sonidos</title>
+  <link rel="stylesheet" href="https://primer.github.io/css/2.0.0/build.css">
   <style>
     /* CSS styles for buttons */
     .numbered-button {
@@ -13,47 +14,11 @@
       border: none; /* remove button borders */
       border-radius: 5px; /* add border radius for rounded edges */
     }
-
-    /* Custom background colors for each button */
-    #button1 {
-      background-color: #3498db; /* set the background color */
-    }
-
-    #button2 {
-      background-color: #2ecc71; /* set the background color */
-    }
-
-    #button3 {
-      background-color: #e74c3c; /* set the background color */
-    }
-
-    #button4 {
-      background-color: #9b59b6; /* set the background color */
-    }
-
-    #button5 {
-      background-color: #f39c12; /* set the background color */
-    }
-
-    #button6 {
-      background-color: #1abc9c; /* set the background color */
-    }
-
-    /* Additional button styles */
-    .additional-buttons {
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-    .additional-button {
-      width: calc(33.33% - 10px);
-    }
   </style>
   <script>
     // JavaScript code to play sounds when buttons are clicked
     function playSound(soundFile) {
-      var audio = new Audio(soundFile);
-      audio.play();
+      // Add your code to play the sound file here
     }
   </script>
 </head>
@@ -63,39 +28,41 @@
   <h2>Subtitles</h2>
   <div>
     <h3>1</h3>
-    <button id="button1" class="numbered-button" onclick="playSound('Apple Crunch Sound Effect.mp3')">1</button>
-    <button id="button2" class="numbered-button" onclick="playSound('Leaves Branches Sound Effect.mp3')">2</button>
-    <button id="button3" class="numbered-button" onclick="playSound('Human Eating Crunch Sound Effect HD.mp3')">3</button>
+    <button id="button1" class="numbered-button">1</button>
+    <button id="button2" class="numbered-button">2</button>
+    <button id="button3" class="numbered-button">3</button>
   </div>
   
   <div>
     <h3>2</h3>
-    <button id="button4" class="numbered-button" onclick="playSound('Gooey Slime Sound Effect.mp3')">4</button>
-    <button id="button5" class="numbered-button" onclick="playSound('Bubble Sound Effect.mp3')">5</button>
-    <button id="button6" class="numbered-button" onclick="playSound('Woodpecker Sound Effect.mp3')">6</button>
+    <button id="button4" class="numbered-button">4</button>
+    <button id="button5" class="numbered-button">5</button>
+    <button id="button6" class="numbered-button">6</button>
   </div>
   
   <div>
     <h3>3</h3>
-    <button id="button7" class="numbered-button" onclick="playSound('Woodpecker Sound Effect.mp3')">7</button>
-    <button id="button8" class="numbered-button" onclick="playSound('Leaves Branches Sound Effect.mp3')">8</button>
-    <button id="button9" class="numbered-button" onclick="playSound('Sweet Bird Sound Effect.mp3')">9</button>
+    <button id="button7" class="numbered-button">7</button>
+    <button id="button8" class="numbered-button">8</button>
+    <button id="button9" class="numbered-button">9</button>
   </div>
   
   <div>
     <h3>4</h3>
-    <button id="button10" class="numbered-button" onclick="playSound('Acoustic Guitar G Major Chord Sound Effect.mp3')">10</button>
-    <button id="button11" class="numbered-button" onclick="playSound('Acoustic Guitar A Minor Chord Sound Effect.mp3')">11</button>
-    <button id="button12" class="numbered-button" onclick="playSound('Sweet Bird Sound Effect.mp3')">12</button>
+    <button id="button10" class="numbered-button">10</button>
+    <button id="button11" class="numbered-button">11</button>
+    <button id="button12" class="numbered-button">12</button>
   </div>
   
   <div>
     <h3>5</h3>
-    <button id="button13" class="numbered-button" onclick="playSound('Sharp Noise Sound Effect.mp3')">13</button>
-    <button id="button14" class="numbered-button" onclick="playSound('Gooey Slime Sound Effect.mp3')">14</button>
-    <button id="button15" class="numbered-button" onclick="playSound('Bubble Sound Effect.mp3')">15</button>
+    <button id="button13" class="numbered-button">13</button>
+    <button id="button14" class="numbered-button">14</button>
+    <button id="button15" class="numbered-button">15</button>
   </div>
   
+  <script src="https://primer.github.io/js/2.0.0/build.js"></script>
 </body>
 </html>
+
 
