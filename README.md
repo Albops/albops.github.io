@@ -1,7 +1,6 @@
-
+<!DOCTYPE html>
 <html>
 <head>
- 
   <title>Botonera de sonidos</title>
   <style>
     /* CSS styles for buttons */
@@ -40,29 +39,14 @@
       background-color: #1abc9c; /* set the background color */
     }
 
-    /* Custom background colors for the additional buttons */
-    #button7 {
-      background-color: #c0392b; /* set the background color */
+    /* Additional button styles */
+    .additional-buttons {
+      display: flex;
+      flex-wrap: wrap;
     }
 
-    #button8 {
-      background-color: #d35400; /* set the background color */
-    }
-
-    #button9 {
-      background-color: #27ae60; /* set the background color */
-    }
-
-    #button10 {
-      background-color: #8e44ad; /* set the background color */
-    }
-
-    #button11 {
-      background-color: #f1c40f; /* set the background color */
-    }
-
-    #button12 {
-      background-color: #2c3e50; /* set the background color */
+    .additional-button {
+      width: calc(33.33% - 10px);
     }
   </style>
   <script>
@@ -75,18 +59,43 @@
 </head>
 <body>
   <h1>Botonera de sonidos</h1>
-  <button id="button1" class="numbered-button" onclick="playSound('Sharp Noise Sound Effect.mp3')">1</button>
-  <button id="button2" class="numbered-button" onclick="playSound('Sharp woosh sound effect.mp3')">2</button>
-  <button id="button3" class="numbered-button" onclick="playSound('Sweet Bird Sound Effect.mp3')">3</button>
-  <button id="button4" class="numbered-button" onclick="playSound('Tree Falling Sound Effect.mp3')">4</button>
-  <button id="button5" class="numbered-button" onclick="playSound('Apple crunch sound effect.mp3')">5</button>
-  <button id="button6" class="numbered-button" onclick="playSound('Acoustic Guitar A Minor Chord Sound Effect.mp3')">6</button>
-  <button id="button7" class="numbered-button" onclick="playSound('Acoustic Guitar G Major Chord Sound Effect.mp3')">7</button>
-  <button id="button8" class="numbered-button" onclick="playSound('Human EatingCrunch  Sound Effect HD.mp3')">8</button>
-  <button id="button9" class="numbered-button" onclick="playSound('Bubble Sound Effect.mp3')">9</button>
-  <button id="button10" class="numbered-button" onclick="playSound('GooeySlime  Sound Effect.mp3')">10</button>
-  <button id="button11" class="numbered-button" onclick="playSound('Woodpecker  Sound Effect.mp3')">11</button>
-  <button id="button12" class="numbered-button" onclick="playSound('Leaves  branches sound effect.mp3')">12</button>
-
+  
+  <h2>Subtitles</h2>
+  <div>
+    <h3>1</h3>
+    <button id="button1" class="numbered-button" onclick="playSound('Apple Crunch Sound Effect.mp3')">1</button>
+    <button id="button2" class="numbered-button" onclick="playSound('Leaves Branches Sound Effect.mp3')">2</button>
+    <button id="button3" class="numbered-button" onclick="playSound('Human Eating Crunch Sound Effect HD.mp3')">3</button>
+  </div>
+  
+  <div>
+    <h3>2</h3>
+    <button id="button4" class="numbered-button" onclick="playSound('Gooey Slime Sound Effect.mp3')">4</button>
+    <button id="button5" class="numbered-button" onclick="playSound('Bubble Sound Effect.mp3')">5</button>
+    <button id="button6" class="numbered-button" onclick="playSound('Woodpecker Sound Effect.mp3')">6</button>
+  </div>
+  
+  <div>
+    <h3>3</h3>
+    <button id="button7" class="numbered-button" onclick="playSound('Woodpecker Sound Effect.mp3')">7</button>
+    <button id="button8" class="numbered-button" onclick="playSound('Leaves Branches Sound Effect.mp3')">8</button>
+    <button id="button9" class="numbered-button" onclick="playSound('Sweet Bird Sound Effect.mp3')">9</button>
+  </div>
+  
+  <div>
+    <h3>4</h3>
+    <button id="button10" class="numbered-button" onclick="playSound('Acoustic Guitar G Major Chord Sound Effect.mp3')">10</button>
+    <button id="button11" class="numbered-button" onclick="playSound('Acoustic Guitar A Minor Chord Sound Effect.mp3')">11</button>
+    <button id="button12" class="numbered-button" onclick="playSound('Sweet Bird Sound Effect.mp3')">12</button>
+  </div>
+  
+  <div>
+    <h3>5</h3>
+    <button id="button13" class="numbered-button" onclick="playSound('Sharp Noise Sound Effect.mp3')">13</button>
+    <button id="button14" class="numbered-button" onclick="playSound('Gooey Slime Sound Effect.mp3')">14</button>
+    <button id="button15" class="numbered-button" onclick="playSound('Bubble Sound Effect.mp3')">15</button>
+  </div>
+  
 </body>
 </html>
+
