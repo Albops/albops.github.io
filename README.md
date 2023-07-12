@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Botonera de sonidos</title>
-  <link rel="stylesheet" href="https://primer.github.io/css/2.0.0/build.css">
+  <link rel="stylesheet" href="https://primer.github.io/css/0.2.0/build.css">
   <style>
     /* CSS styles for buttons */
     .numbered-button {
@@ -61,7 +61,7 @@
     <button id="button15" class="numbered-button">15</button>
   </div>
   
-  <script src="https://primer.github.io/js/2.0.0/build.js"></script>
+  <script src="https://primer.github.io/js/0.2.0/build.js"></script>
 </body>
 </html>
 
